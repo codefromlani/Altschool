@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media page</title>
+    <link rel="stylesheet" href="./CSS/media.css">
+</head>
+<body>
+    
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="form.html">FORM</a></li>
+        <li><a href="table.html">TABLE</a></li>
+        <li><a href="media.html">MEDIA</a></li>
+    </ul>
+    <hr>
+
+    <div class="container">
+        <h1>My Crocheting journey</h1>
+
+        <section class="introduction">
+            <h2>Welcome to My Crocheting Corner</h2>
+            <p>Explore my crocheting projects and inspiration. I love working with soft, pastel yarns and creating cute, handmade items. Here's a glimpse into my crocheting world: </p>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+
+            <picture>
+                <source srcset="ASSETS/IMAGES/hooks.JPG" media="(min-width: 1200px)">
+                <source srcset="ASSETS/IMAGES/yarns.JPG", media="(min-width: 768px)">
+                <img src="ASSETS/IMAGES/book cover.JPG" alt="crocheting projects, yarns, and hooks" class="responsive-image" width="100%">
+            </picture>
+            <p>This is a project i am working on. I use differnt yarn colors and hook sizes to create this beautiful book cover</p>
+
+            <h2>Video</h2>
+            <video controls width="100%">
+                <source src="ASSETS/VIDEOS/Crochet lotus flower pattern. Simple crochet tiny centerpiece tutorial.mp4.crdownload" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Here is a tutorial for a basic lotus flower</p>
+
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="ASSETS/AUDIOS/Christina_Perri_-_A_Thousand_Years_CeeNaija.com_.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Listen to one of my favorite song while you are here</p>
+        </section>
+
+        <p class="back-to-top"><a href="#top">Back to Top</a></p>
+    </div>
+</body>
+</html>
