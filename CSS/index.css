@@ -57,11 +57,11 @@ ol li {
 }
     
 @media (max-width: 768px) {
-    ul {
-        padding-left: 0;
+    body ul {
+        padding-left: 20px;
     }
 
-    li {
+    body li {
         margin-bottom: 5px;
     }
 
@@ -69,17 +69,18 @@ ol li {
         margin-top: 10px;
     }
 
-    /* Add additional styles for mobile */
+    /* Additional styles for mobile */
 }
 
 @media (max-width: 480px) {
-    ul {
+    body ul {
         display: flex;
         flex-direction: column;
         padding: 0;
+        padding-left: 20px;
     }
 
-    li {
+    body li {
         margin-bottom: 0;
     }
 
