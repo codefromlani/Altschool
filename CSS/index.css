@@ -35,14 +35,15 @@ hr{
 
 h2 {
     color: #f06292;
+    margin: 5px;
 }
 
 p {
-    margin: 15px 0;
+    margin: 15px;
 }
 
 ol {
-    margin: 0;
+    margin: 20px;
     padding-left: 20px;
 }
 
