@@ -102,6 +102,20 @@ section {
         flex: 2;
         max-width: 100%;
     }
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
+
+    .heading{
+        text-align: left;
+    }
+
+    .paragraph{
+        text-align: left;
+    }
 }
 
 @media (max-width: 600px) {
@@ -116,6 +130,10 @@ section {
     .form-group input,
     .form-group select {
         width: 100%;
+    }
+
+    section{
+        min-width: 300px;
     }
 }
 
